@@ -1,0 +1,11 @@
+package ex4;
+
+public class Ex4_MaIN {
+	public static void main(String[] args) {
+		Ex4_Member m =new Ex4_Member();
+		
+		
+		m.name="±è±æµ¿";
+		System.out.println(m.name);
+	}
+}

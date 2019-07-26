@@ -1,0 +1,16 @@
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+
+public class Example {
+	public static void main(String[] args) {
+		FileInputStream input;
+		FileOutputStream output;
+		
+		try {
+			input = new FileInputStream("D:\\javabook\\input.txt");
+			output = new FileOutputStream("D:\\javabook\\output.txt")
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+}

@@ -1,0 +1,9 @@
+package ex4;
+
+public class DemoConst {
+	
+	public DemoConst() {
+		System.out.println("생성자호출");
+	}
+
+}

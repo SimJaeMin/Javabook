@@ -1,0 +1,23 @@
+package ex4;
+
+public class Ex3_Varargs {
+	public void test(BoardVO ... str) {
+		for(BoardVO e : str) {
+			System.out.println(e.getNumber());
+			System.out.println(e.getWritter());
+		}
+	}
+	
+	public static void main(String[] args) {
+		Ex3_Varargs ref = new Ex3_Varargs();
+		BoardVO v1 = new BoardVO();
+		v1.setWritter("±è±æµ¿");
+		v1.setNumber(1);
+		
+		
+		BoardVO v2 = new BoardVO();
+		v1.setWritter("±è¼ö¾Æ");
+		v1.setNumber(2);
+		
+	}
+}

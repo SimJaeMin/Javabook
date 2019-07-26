@@ -1,0 +1,21 @@
+package ex1;
+
+public class Ex11_For {
+	public static void main(String[] args) {
+		String s ="B";
+		boolean b=true;
+		char ch='A';
+		float f =3.14F;
+		byte bb=10;
+		long ll=10l;
+		switch (s) {
+		case "A":
+			System.out.println("문자열A");
+			break;
+		case "B":S
+			System.out.println("문자열B");
+		default:
+			break;
+		}
+	}
+}

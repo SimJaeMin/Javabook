@@ -1,0 +1,13 @@
+package ex1;
+
+public class Ex6_SB {
+	public static void main(String[] args) {
+		String s ="ab";
+		s+= "CD";
+		s+= "EF";
+		System.out.println(s);
+		StringBuffer sb= new StringBuffer();
+		sb.append("ABC").append("DEF").append("ZZZ");
+		System.out.println(sb);
+	}
+}

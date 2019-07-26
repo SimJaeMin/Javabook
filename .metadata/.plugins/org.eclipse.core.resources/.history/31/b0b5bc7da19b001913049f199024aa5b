@@ -1,0 +1,18 @@
+package ex1;
+
+public class Ex3_size {
+	public static void main(String[] args) {
+		byte n1= 10;
+		byte n2= 120;
+		byte n3= (byte) (n1+n2);
+
+		int res =n1+n2;
+		short sh1 = 100;
+		short sh2 = 200;
+		short sh3 = (short)(sh1+sh2);
+		System.out.println("sh3 :"+sh3);
+		int resoper =(100*2/3%5);
+		System.out.println(resoper);
+		
+}
+}

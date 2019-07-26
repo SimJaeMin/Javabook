@@ -1,0 +1,11 @@
+package ex1;
+
+public class Ex3_size {
+	public static void main(String[] args) {
+		byte n1= 10;
+		byte n2= 120;
+		byte n3= (byte) (n1+n2);
+		System.out.println(b3);
+		
+}
+}

@@ -1,0 +1,19 @@
+package ex4;
+//
+public class Ex4_Member {
+	//정보은닉과 캡슐화
+	//정보은닉은 가장 핵심적인 지원과 기술을 말 그대로 은닉화 하는것이고
+	//캡슐화는 은닉한 정보에 접근하는 방법을 제공하는 것을 말한다.
+	//pojo :개념도 포함
+	// 자바에서 멤버는 private로 접근을 제한한다
+	//값을 주입 :setter , 값을 반환 :getter
+	//private 현재 클래스에서만 접근가능 , inner class 접근가능
+	//defalut : 현재 패키지 내에서만 접근가능
+	//protected : 디폴트 폰함 + 다른패키지의 상속관계
+	//public : all
+	private String name;
+	private int age;
+	private boolean agree;
+	private int pay;
+	
+}

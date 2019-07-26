@@ -1,0 +1,11 @@
+package ex4;
+//
+public class Ex4_Member {
+	//Á¤º¸Àº´Ð°ú Ä¸½¶È­
+	
+	String name;
+	int age;
+	boolean agree;
+	int pay;
+	
+}

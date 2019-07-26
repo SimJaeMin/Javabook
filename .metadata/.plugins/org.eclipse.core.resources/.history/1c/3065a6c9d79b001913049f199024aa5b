@@ -1,0 +1,20 @@
+package ex4;
+
+public class BoardVO {
+	private String writter;
+	private int number;
+	public String getWritter() {
+		return writter;
+	}
+	public void setWritter(String writter) {
+		this.writter = writter;
+	}
+	public int getNumber() {
+		return number;
+	}
+	public void setNumber(int number) {
+		this.number = number;
+	}
+	
+	
+}

@@ -1,0 +1,25 @@
+package ex1;
+
+public class Ex3_Remocon {
+	boolean power;
+	int chNum;
+	
+	public void setPower(boolean p) {
+		power = p;
+		
+		if(p==true) {
+			System.out.println("전원이 켜졌습니다.");
+		}else {
+			System.out.println("전원이 꺼졌습니다.");
+		}
+	}
+
+	public void setChNum(int ch) {
+		chNum=ch;
+	}
+	public String viewControl() {
+		return "지금 채널은 :" + chNum+ "입니다.";
+				
+	}
+	}
+

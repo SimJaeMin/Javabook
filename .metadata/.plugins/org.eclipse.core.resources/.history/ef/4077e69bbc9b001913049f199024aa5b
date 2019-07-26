@@ -1,0 +1,25 @@
+package ex1;
+
+import java.util.Scanner;
+
+public class Ex9_prac {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a;
+	
+		ext: for(int i=0;i<10;i++) {}
+
+		while(true) {
+			a=Integer.parseInt(sc.nextLine());
+			
+			switch (a){
+				case 3:
+				break ext;
+		
+			}
+			
+		}
+
+
+	}
+}

@@ -1,0 +1,31 @@
+package ex1;
+
+public class Ex8_ifElse {
+	public static void main(String[] args) {
+		String str1="abcd";
+		String str2="abcd";
+		
+		if(str1==str2) {
+			System.out.println("같다1");
+		}else {
+			System.out.println("다르다1");
+		}
+		
+		if(str1.contentEquals(str2)) {
+			System.out.println("같다2");
+		}else {
+			System.out.println("다르다2");
+		}
+		
+		String s1= new String("ab");
+		String s2= new String("ab");
+		
+		
+		if(s1==s2) {
+			System.out.println("같다3");
+		}else {
+			System.out.println("다르다3");
+		}
+		
+	}
+}

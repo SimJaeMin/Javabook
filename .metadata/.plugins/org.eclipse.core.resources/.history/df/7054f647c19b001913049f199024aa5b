@@ -1,0 +1,9 @@
+package ex4;
+//
+public class Ex4_Member {
+	String name;
+	int age;
+	boolean agree;
+	
+	
+}
